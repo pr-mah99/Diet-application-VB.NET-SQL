@@ -28,9 +28,7 @@ Partial Class About_Project
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label3
@@ -39,7 +37,7 @@ Partial Class About_Project
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Tajawal", 20.2!)
-        Me.Label3.Location = New System.Drawing.Point(349, 32)
+        Me.Label3.Location = New System.Drawing.Point(399, 32)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(211, 48)
         Me.Label3.TabIndex = 14
@@ -51,7 +49,7 @@ Partial Class About_Project
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Tajawal", 20.2!)
-        Me.Label1.Location = New System.Drawing.Point(173, 122)
+        Me.Label1.Location = New System.Drawing.Point(198, 122)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(563, 48)
         Me.Label1.TabIndex = 15
@@ -63,7 +61,7 @@ Partial Class About_Project
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Tajawal", 20.2!)
-        Me.Label2.Location = New System.Drawing.Point(249, 56)
+        Me.Label2.Location = New System.Drawing.Point(285, 56)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(410, 48)
         Me.Label2.TabIndex = 16
@@ -75,11 +73,11 @@ Partial Class About_Project
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Tajawal", 20.2!)
-        Me.Label4.Location = New System.Drawing.Point(275, 589)
+        Me.Label4.Location = New System.Drawing.Point(415, 578)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(346, 48)
+        Me.Label4.Size = New System.Drawing.Size(195, 48)
         Me.Label4.TabIndex = 17
-        Me.Label4.Text = "مشروع تخرج 2022 2023"
+        Me.Label4.Text = "مشروع تخرج"
         '
         'Label5
         '
@@ -87,25 +85,12 @@ Partial Class About_Project
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Tajawal", 16.2!)
-        Me.Label5.Location = New System.Drawing.Point(635, 296)
+        Me.Label5.Location = New System.Drawing.Point(467, 349)
         Me.Label5.Name = "Label5"
         Me.Label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label5.Size = New System.Drawing.Size(183, 38)
+        Me.Label5.Size = New System.Drawing.Size(79, 38)
         Me.Label5.TabIndex = 18
-        Me.Label5.Text = "أعداد الطالبات:"
-        '
-        'Label6
-        '
-        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Tajawal", 16.2!)
-        Me.Label6.Location = New System.Drawing.Point(143, 296)
-        Me.Label6.Name = "Label6"
-        Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label6.Size = New System.Drawing.Size(100, 38)
-        Me.Label6.TabIndex = 19
-        Me.Label6.Text = "أشراف:"
+        Me.Label5.Text = "أعداد:"
         '
         'Label7
         '
@@ -113,36 +98,20 @@ Partial Class About_Project
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Tajawal", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(605, 359)
+        Me.Label7.Location = New System.Drawing.Point(373, 411)
         Me.Label7.Name = "Label7"
         Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label7.Size = New System.Drawing.Size(242, 80)
+        Me.Label7.Size = New System.Drawing.Size(269, 42)
         Me.Label7.TabIndex = 20
-        Me.Label7.Text = "الاء عباس جواد" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "سكينه ناجي محسن"
+        Me.Label7.Text = "محمود شمران عذيب"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label8
-        '
-        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Tajawal", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(72, 359)
-        Me.Label8.Name = "Label8"
-        Me.Label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label8.Size = New System.Drawing.Size(243, 40)
-        Me.Label8.TabIndex = 21
-        Me.Label8.Text = "م.م علي عبد الكاظم"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'About_Project
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(905, 668)
-        Me.Controls.Add(Me.Label8)
+        Me.ClientSize = New System.Drawing.Size(1034, 668)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
@@ -150,8 +119,8 @@ Partial Class About_Project
         Me.Controls.Add(Me.Label2)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(933, 725)
-        Me.MinimumSize = New System.Drawing.Size(923, 715)
+        Me.MaximumSize = New System.Drawing.Size(1064, 725)
+        Me.MinimumSize = New System.Drawing.Size(1052, 715)
         Me.Name = "About_Project"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About_Project"
@@ -165,7 +134,5 @@ Partial Class About_Project
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
 End Class

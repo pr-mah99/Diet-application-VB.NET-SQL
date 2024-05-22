@@ -84,9 +84,7 @@
     <Compile Include="About_Project.Designer.vb">
       <DependentUpon>About_Project.vb</DependentUpon>
     </Compile>
-    <Compile Include="About_Project.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="About_Project.vb" />
     <Compile Include="Admin\Admin.Designer.vb">
       <DependentUpon>Admin.vb</DependentUpon>
     </Compile>
